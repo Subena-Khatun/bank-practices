@@ -65,7 +65,7 @@ document.getElementById('btn-deposit').addEventListener('click', function(){
     const PresentwidthInputFiledValue = PresentwidthInputFiled.innerText;
     const PresentwidthInputFiledValueFloat = parseFloat(PresentwidthInputFiledValue);
 
-    const FinalwidthowBoxValue = PresentwidthInputFiledValueFloat - widthrowInnerTextFloat;
+    const FinalwidthowBoxValue = PresentwidthInputFiledValueFloat + widthrowInnerTextFloat;
     PresentwidthInputFiled.innerText = FinalwidthowBoxValue;
 
 
